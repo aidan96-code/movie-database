@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `movie_review`.`review` (
+CREATE TABLE IF NOT EXISTS `movie_rentals`.`review` (
   `idreview` INT NOT NULL AUTO_INCREMENT,
   `idcustomer` INT NOT NULL,
   `idmovie` INT NOT NULL,
